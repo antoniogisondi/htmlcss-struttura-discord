@@ -13,6 +13,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .h-row{
@@ -223,5 +224,24 @@ footer{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    font-family: 'Montserrat', sans-serif;
 }
 
+.f-row{
+    background-color: rgba(127,255,212,255);
+    width: 60%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-foot{
+    background-color: rgba(255,182,193,255);
+    width:5%;
+    height: 22px;
+    text-align: center;
+    font-size: 11px;
+    border: 1px dashed black;
+}
+/* END FOOTER STYLES */
