@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* HEADER STYLES */
 header{
     width: 1583px;
     margin: 0 auto;
@@ -14,12 +15,7 @@ header{
     align-items: center;
 }
 
-main{
-    width: 1583px;
-    margin: 0 auto;
-}
-
-.row{
+.h-row{
     background-color: rgba(218,165,32,255);
     width: 60%;
     height: 35px;
@@ -29,13 +25,34 @@ main{
 .col-25{
     width: 25%;
     border: 1px dashed black;
+    display: flex;
+    align-items: center;
+}
+
+.col-25-2{
+    width: 25%;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .col-50{
     width: 50%;
     border: 1px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* END HEADER STYLES */
+/* MAIN STYLES */
+main{
+    width: 1583px;
+    height: 100%;
+    margin: 0 auto;
 }
 
+/* FIRST LAYOUT */
 .first-container{
     width: 100%;
     height:420px;
@@ -61,36 +78,141 @@ main{
     height: 350px; 
     border: 1px dashed black;  
 }
-
+/* END FIRST LAYOUT */
+/* SECOND AND FOURTH LAYOUT */
 .container{
     width: 100%;
-    height:620px;
+    height:520px;
     display:flex;  
     flex-direction: row;
     justify-content: center;
     align-content:center;
 }
 
-.container .second-row{
+.row{
     width: calc(100% - 600px);
     margin: 0 300px;
-    height: 520px;
     display:flex;  
     flex-direction: row;
     justify-content: center;
     align-items:center; 
 }
 
-.second-row .first-col{
+.col-60{
     width: 60%;
     height: 450px;
     background-color: rgba(30,144,255,255);
     border: 1px dashed black; 
 }
 
-.second-row .second-col{
+.col-40{
     width: 40%;
     height: 450px;
     background-color:rgba(255,192,203,255);
     border: 1px dashed black; 
 }
+/* END SECOND AND FOURTH LAYOUT */
+/* THIRD LAYOUT */
+.third-container{
+    background-color: rgba(211,211,211,255);
+    width: 100%;
+    height:520px;
+    display:flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-content:center;
+}
+
+.third-row{
+    width: calc(100% - 600px);
+    margin: 0 300px;
+    display:flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.third-row .first-col{
+    width: 40%;
+    height: 450px;
+    background-color:rgba(255,192,203,255);
+    border: 1px dashed black;
+}
+
+.third-row .second-col{
+    width: 60%;
+    height: 450px;
+    background-color: rgba(30,144,255,255);
+    border: 1px dashed black;
+}
+/* END THIRD LAYOUT */
+/* FIFTH LAYOUT */
+.fifth-container{
+    background-color: rgba(211,211,211,255);
+    width: 100%;
+    height:940px;
+    display:flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-content:center;
+}
+
+.fifth-row{
+    width: calc(100% - 600px);
+    margin: 300px;
+    display:flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.big-col{
+    background-color: rgba(34,139,34,255);
+    width: 100%;
+    height: 860px;
+    border: 1px dashed black;
+
+}
+
+/* END FIFTH LAYOUT */
+/* SIXTH LAYOUT */
+.sixth-container{
+    background-color: rgba(35,39,42,255);
+    width: 100%;
+    height:560px;
+    display:flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-content:center;
+}
+
+.sixth-row{
+    width: calc(100% - 600px);
+    margin: 0 300px;
+    display:flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.col-1{
+    background-color: rgba(240,128,128,255);
+    width: 30.3%;
+    height: 500px;
+    border: 1px dashed black;
+}
+
+.container-col{
+    background-color: rgba(32,178,170,255);
+    width: 100%;
+    height: 500px;
+    border: 1px dashed white;
+}
+
+.col-2 .col-3 .col-4 .col-5{
+    width: calc(100% / 4);
+    height: 500px;
+}
+/* END SIXTH LAYOUT */
+/* END MAIN STYLES */
+
