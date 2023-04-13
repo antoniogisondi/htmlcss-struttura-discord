@@ -215,4 +215,13 @@ main{
 }
 /* END SIXTH LAYOUT */
 /* END MAIN STYLES */
+/* FOOTER STYLES */
+footer{
+    background-color: rgba(35,39,42,255);
+    width: 1583px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 
